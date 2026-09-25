@@ -1,0 +1,40 @@
+name: Importar proyecto validado
+on:
+  push:
+    paths:
+      - Hamster-Call-Center-Audio-Completo-GitHub.zip
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar y extraer archivos
+        shell: python
+        run: |
+          import hashlib, pathlib, zipfile
+          bundle = pathlib.Path('Hamster-Call-Center-Audio-Completo-GitHub.zip')
+          assert hashlib.sha256(bundle.read_bytes()).hexdigest() == 'a9fe94733503dd3f705bebb9279ae97c8a73382337d97e74ffbc0b5cd23119e4'
+          count = 0
+          with zipfile.ZipFile(bundle) as archive:
+              assert archive.testzip() is None
+              for item in archive.infolist():
+                  path = pathlib.PurePosixPath(item.filename)
+                  assert path.parts[0] == 'hamster-call-center'
+                  assert '..' not in path.parts and not path.is_absolute()
+                  if item.is_dir():
+                      continue
+                  target = pathlib.Path(*path.parts[1:])
+                  assert target.parts[0] not in ('.git', '.github')
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(archive.read(item))
+                  count += 1
+          print(f'Archivos verificados y extraídos: {count}')
+      - name: Guardar proyecto completo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets css js tests *.md index.html
+          git diff --cached --quiet || git commit -m 'Importar proyecto completo con audio y recursos originales'
+          git push
