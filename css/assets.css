@@ -1,0 +1,47 @@
+/* Original transparent PNG sheets, clipped without resampling or deformation. */
+.asset-icon{display:inline-block;flex-shrink:0;width:var(--icon-size,100px);height:var(--icon-size,100px);position:relative;overflow:hidden;vertical-align:middle}.asset-icon img{position:absolute;max-width:none;pointer-events:none;object-fit:fill}
+.icon-communication-llamadas img{width:554.081633%;height:184.693878%;left:-11.224490%;top:-37.755102%}
+.icon-communication-mensajes img{width:552.671756%;height:184.223919%;left:-118.447837%;top:-37.404580%}
+.icon-communication-correo img{width:554.081633%;height:184.693878%;left:-227.040816%;top:-37.755102%}
+.icon-communication-web img{width:554.081633%;height:184.693878%;left:-334.948980%;top:-37.755102%}
+.icon-communication-apps img{width:554.081633%;height:184.693878%;left:-443.367347%;top:-37.755102%}
+.icon-fraud-types-llamada-falsa img{width:467.096774%;height:155.698925%;left:-10.860215%;top:-24.516129%}
+.icon-fraud-types-mensaje-enganoso img{width:460.169492%;height:153.389831%;left:-122.881356%;top:-23.411017%}
+.icon-fraud-types-correo-pagina-falsa img{width:457.263158%;height:152.421053%;left:-236.000000%;top:-22.947368%}
+.icon-fraud-types-solicitud-datos-codigos img{width:464.102564%;height:154.700855%;left:-353.205128%;top:-24.038462%}
+.icon-psychology-urgencia img{width:370.017036%;height:123.339012%;left:-16.865417%;top:-10.477002%}
+.icon-psychology-confianza img{width:369.387755%;height:123.129252%;left:-134.693878%;top:-10.204082%}
+.icon-psychology-miedo-premio img{width:369.387755%;height:123.129252%;left:-252.721088%;top:-10.119048%}
+.icon-tools-celular-app img{width:450.622407%;height:150.207469%;left:-9.543568%;top:-19.502075%}
+.icon-tools-computadora img{width:447.835052%;height:149.278351%;left:-117.113402%;top:-19.072165%}
+.icon-tools-libreta img{width:450.622407%;height:150.207469%;left:-230.912863%;top:-19.502075%}
+.icon-tools-canal-independiente img{width:450.622407%;height:150.207469%;left:-341.493776%;top:-19.502075%}
+/* Supplied icons already contain their own illustrated frame. */
+.tile-icon:has(.asset-icon){background:none;border:0;box-shadow:none;border-radius:0;min-width:0;min-height:0;width:auto;height:auto;line-height:0}
+.intro-1 .asset-icon{--icon-size:clamp(120px,11vw,190px)}
+.intro-2 .asset-icon{--icon-size:clamp(140px,12vw,205px)}
+.intro-3 .asset-icon{--icon-size:clamp(155px,14vw,230px)}
+.intro-1 .tile,.intro-2 .tile,.intro-3 .tile{padding:22px 18px;gap:14px}
+.tool-samples .asset-icon{--icon-size:72px}.tool-samples b{line-height:0}.tool-samples>span{gap:5px}
+.tool-icon .asset-icon{--icon-size:52px}.tool{grid-template-columns:54px 1fr}.device-bar .asset-icon{--icon-size:38px}.device-bar>span:first-child{line-height:0}
+.evaluation-screen,.closing-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:12px 0 20px}
+.evaluation-screen .screen-heading{max-width:1200px}.evaluation-screen .lead{font-size:26px;margin-top:10px}
+.qr-card{background:white;border:3px solid #d9c8a8;border-radius:24px;padding:16px 24px;text-align:center;box-shadow:var(--shadow)}
+.qr-card img{display:block;width:min(47vh,530px);height:auto;max-width:100%;aspect-ratio:1;object-fit:contain;margin:auto}
+.qr-card p{font-size:24px;font-weight:bold;color:var(--ink);margin-top:8px}
+.closing-cast{width:min(1100px,100%)}.closing-cast .cast-image{max-height:42vh}.closing-screen .closing-rule{font-size:26px}
+@media(min-width:1100px) and (max-height:800px){
+ .intro-1 .asset-icon{--icon-size:120px}.intro-2 .asset-icon{--icon-size:135px}.intro-3 .asset-icon{--icon-size:150px}
+ .intro-1 .tile,.intro-2 .tile,.intro-3 .tile{padding:18px;gap:12px}
+ .tool-samples .asset-icon{--icon-size:54px}.tool-samples>span{font-size:17px;padding:4px;gap:4px}
+ .intro-7 .tile{min-height:218px}.intro-7 .how-tools{padding:9px 14px}
+ .tool-icon .asset-icon{--icon-size:44px}.tool{grid-template-columns:44px 1fr}
+ .device-bar .asset-icon{--icon-size:32px}
+ .evaluation-screen{gap:12px;padding:8px 0 12px}.evaluation-screen .screen-heading{padding:12px 24px}.evaluation-screen h1{font-size:42px}.evaluation-screen .lead{font-size:23px;margin-top:8px}
+ .qr-card{padding:10px 22px}.qr-card img{width:min(46vh,400px)}.qr-card p{font-size:22px;margin-top:4px}
+}
+@media(max-width:700px){
+ .intro-1 .asset-icon,.intro-2 .asset-icon{--icon-size:110px}.intro-3 .asset-icon{--icon-size:130px}
+ .tool-samples .asset-icon{--icon-size:64px}.tool-icon .asset-icon{--icon-size:52px}
+ .evaluation-screen .lead{font-size:22px}.qr-card{padding:12px;max-width:100%}.qr-card img{width:min(80vw,420px)}.qr-card p{font-size:20px}.closing-screen .closing-rule{font-size:19px}
+}

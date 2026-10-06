@@ -1,0 +1,10 @@
+{
+  "screens": 280,
+  "errors": [],
+  "overflow": [],
+  "keyboard": "passed",
+  "typewriter": "passed",
+  "silentHooks": "passed",
+  "timer": "15/7/3 passed",
+  "reducedMotion": "passed"
+}

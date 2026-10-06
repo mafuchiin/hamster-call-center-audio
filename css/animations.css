@@ -1,0 +1,41 @@
+@keyframes arrive{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.85)}70%{transform:scale(1.04)}100%{opacity:1;transform:scale(1)}}
+@keyframes ring{0%,100%{transform:rotate(0)}25%{transform:rotate(-9deg)}60%{transform:rotate(8deg)}}
+@keyframes slideMessage{from{opacity:0;transform:translateX(45px)}to{opacity:1;transform:none}}
+@keyframes mailBounce{0%{opacity:0;transform:translateY(-22px)}65%{transform:translateY(6px)}100%{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(35px)}to{opacity:1;transform:none}}
+@keyframes powerOn{from{opacity:0;filter:brightness(.35);transform:scaleY(.94)}to{opacity:1;filter:brightness(1);transform:none}}
+@keyframes openNotebook{from{opacity:0;transform:perspective(900px) rotateY(-12deg)}to{opacity:1;transform:none}}
+@keyframes spend{0%{transform:scale(1.45);color:#32825a}60%{transform:scale(.75)}100%{transform:scale(1)}}
+@keyframes softPause{50%{transform:scale(.94)}}
+@keyframes shake{25%{transform:translateX(-5px)}60%{transform:translateX(4px)}85%{transform:translateX(-2px)}}
+@keyframes timerPulse{50%{background:#edb2ba6b;box-shadow:0 0 0 3px #d34c6920}}
+@keyframes unmask{from{opacity:1}to{opacity:0;visibility:hidden}}
+.screen{animation:arrive 220ms ease-out}
+.incoming-symbol.channel-call{animation:ring 400ms ease-out}
+.incoming-symbol.channel-message{animation:slideMessage 350ms ease-out}
+.incoming-symbol.channel-mail{animation:mailBounce 400ms ease-out}
+.incoming-flight{position:fixed;z-index:100;pointer-events:none;display:grid;place-items:center;font-size:90px;color:#fff2d9;background:#35568e;border-radius:28px;transform-origin:top left}
+.channel-dock{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:#fff0ca;color:#294576;font-size:28px;position:absolute;top:4px;right:calc(50% - 118px)}
+.incoming{position:relative}
+.type-line{position:relative}.type-reserve{visibility:hidden}.type-display{position:absolute;inset:0}.typing{cursor:pointer}
+.text-control{background:transparent;border:2px solid #c7b19d;border-radius:14px;color:#493851;padding:10px 14px;font:inherit;font-size:16px;font-weight:700;box-shadow:none}
+[hidden]{display:none!important}
+button{transition:transform 150ms ease,box-shadow 150ms ease,filter 150ms ease}button:active:not(:disabled){transform:translateY(3px) scale(.985)!important;box-shadow:0 1px 0 #4c344a44!important}button:focus-visible,summary:focus-visible{outline:4px solid #296dc2;outline-offset:4px}
+.tool{position:relative;box-shadow:0 5px 0 #5349683b,0 8px 15px #35203b13}.tool:not(:disabled):hover .tool-icon{transform:translateY(-3px) rotate(-4deg)}.tool-icon{transition:transform 180ms ease;filter:drop-shadow(0 4px 2px #46345033)}.tool kbd{position:absolute;right:10px;top:8px;border:1px solid #57496055;background:#ffffffa6;border-radius:6px;font-size:12px;padding:2px 5px}.tool:disabled{filter:saturate(.35);opacity:.63;box-shadow:none}
+.tool-surface{position:relative;overflow:hidden;border:5px solid #4a425b!important;box-shadow:0 8px 0 #2e293b,0 16px 28px #15203430!important;background:#fffaf2!important}
+.device-bar{display:flex;align-items:center;gap:12px;border-bottom:2px solid #ddd1c6;padding-bottom:10px;margin-bottom:14px;color:#5b5069;font-size:12px;font-weight:800;letter-spacing:1px}.device-bar>span:first-child{font-size:32px}.device-bar i{margin-left:auto;font-size:10px;font-style:normal;color:#739e9b}
+.tool-app{animation:rise 350ms ease-out;border-radius:35px!important}.tool-app .device-bar{border-top:5px solid #4a425b;border-radius:14px;padding-top:6px}
+.tool-computer{animation:powerOn 320ms ease-out;border-radius:16px!important;border-bottom-width:14px!important}.tool-notebook{animation:openNotebook 380ms ease-out;transform-origin:left;border-color:#cc7797!important;border-left:15px dotted #70536d!important;background:repeating-linear-gradient(#fffaf2 0 33px,#dacfe04d 34px 35px)!important}.tool-independent{animation:rise 300ms ease-out;border-color:#d48e46!important}.tool-independent .device-bar>span:first-child{animation:ring 400ms ease-out}
+.check-dots span{display:inline-block}.check-spent{animation:spend 350ms ease-out}.points-pop{animation:pop 350ms ease-out}
+.timer-warning{background:#ffdfa1;border-radius:8px;color:#684009}.timer-urgent,.timer-final{background:#fbe1e6;border-radius:8px;color:#a02942;animation:timerPulse 1.4s ease-in-out infinite}.timer-final{animation-duration:700ms}
+.resolved .result-symbol{animation:pop 350ms ease-out}.partial .result-symbol{animation:softPause 400ms ease-in-out}.risk.result-card{animation:shake 320ms ease-out}
+.reveal-art{position:relative}.reveal-mask{position:absolute;inset:0;z-index:2;display:grid;place-items:center;background:#ebe7f2;color:#564861;border-radius:inherit;font-size:100px;font-weight:900;animation:unmask 180ms ease-out forwards}.reveal-art .character{animation:arrive 280ms 100ms both}.reveal-copy h1{animation:arrive 230ms 150ms both}.reveal-copy .type-pill{animation:arrive 230ms 210ms both}.reveal-copy .reveal-quote{animation:arrive 230ms 220ms both}
+.intro-screen .tile{animation:pop 280ms both}.intro-screen .tile:nth-child(2){animation-delay:40ms}.intro-screen .tile:nth-child(3){animation-delay:80ms}.intro-screen .tile:nth-child(4){animation-delay:120ms}.intro-screen .tile:nth-child(5){animation-delay:160ms}.intro-screen .cast-image,.intro-screen .character{animation:rise 350ms both}.intro-screen h1{animation:arrive 250ms both}.intro-screen .tile-icon{animation:pop 350ms both}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal-mask{display:none}}
+/* Solid paper lines keep the office from showing through the notebook. */
+.tool-notebook{background:repeating-linear-gradient(#fffaf2 0 33px,#e9e0e8 34px 35px)!important}
+.tool-app .device-bar{border-top:0;padding-top:6px}.tool-app:before{content:'';position:absolute;top:7px;left:calc(50% - 32px);width:64px;height:7px;border-radius:8px;background:#4a425b}
+.reveal-copy{padding:22px 26px;border-radius:24px;background:#24243ce8;box-shadow:0 8px 24px #13142524}
+.phase-unknown .unknown-avatar{animation:arrive 220ms 180ms both}
+@media(max-width:900px){.reveal-copy{padding:18px}}

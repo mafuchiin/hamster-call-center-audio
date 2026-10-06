@@ -1,0 +1,37 @@
+/* One stage, fitted into the browser's actual visible area. */
+html,body{width:100%;height:100%;min-height:100dvh;overflow:hidden;overscroll-behavior:none}
+.app-shell{position:fixed;left:0;top:0;margin:0;max-width:none;width:var(--stage-width,100vw);transform-origin:top left;will-change:transform}
+#app{width:100%;min-height:0;overflow:visible}
+.screen{min-height:calc(var(--stage-height,100dvh) - 100px);width:100%;height:auto}
+@media(min-width:1100px) and (max-height:800px){.screen{min-height:calc(var(--stage-height,100dvh) - 78px)}}
+/* Expanded reference text participates in stage fitting, never scrolls internally. */
+.replay[open],.decision-context[open],.evidence-review[open],.case-note details[open],.phase-investigate .contact-body{max-height:none!important;overflow:visible!important}
+.incoming-symbol{background:none;border:0;box-shadow:none;border-radius:0;transform:none}
+.incoming-symbol .asset-icon{--icon-size:145px}
+.channel-dock{background:none;border-radius:0}.channel-dock .asset-icon{--icon-size:44px}
+.channel-symbol .asset-icon{--icon-size:38px}
+.incoming-flight{background:none;border-radius:0;font-size:inherit}.incoming-flight .asset-icon{width:100%;height:100%}
+.cover-title h1 i{right:-105px;bottom:0}.cover-title h1 i .asset-icon{--icon-size:100px}
+.story-badge{display:flex;gap:8px;align-items:center;padding:8px;background:#fff8e9}.story-badge .asset-icon{--icon-size:48px}
+.hud-case-icon{display:inline-block;vertical-align:middle;line-height:0}.hud-case-icon .asset-icon{--icon-size:28px}
+.lesson-row>span .asset-icon{--icon-size:32px}
+@media(min-width:1100px) and (max-height:800px){.incoming-symbol .asset-icon{--icon-size:110px}.cover-title h1 i{right:-90px}.cover-title h1 i .asset-icon{--icon-size:85px}}
+/* Use the spare horizontal area for expanded reading instead of a tall sidebar. */
+.decision-layout:has(.decision-context[open]){grid-template-columns:.85fr 1.65fr;gap:20px}
+.evidence-panel:has(.decision-context[open]){display:grid;grid-template-columns:.85fr 1.15fr;gap:12px 18px;align-content:start}
+.evidence-panel:has(.decision-context[open])>h2{grid-column:1;grid-row:1;margin:0}
+.evidence-panel:has(.decision-context[open])>.evidence-list,.evidence-panel:has(.decision-context[open])>.empty-evidence{grid-column:1;grid-row:2}
+.evidence-panel:has(.decision-context[open])>.evidence-footnote{grid-column:1;grid-row:3;margin:0}
+.evidence-panel>.decision-context[open]{grid-column:2;grid-row:1 / span 3;margin:0;padding:0 0 0 16px;border-top:0;border-left:1px solid #baadcb}
+.decision-context[open] .transcript p{font-size:20px;line-height:1.3}
+.decision-context[open] .code-message{padding:10px 12px;margin:10px 0}
+.case-note:has(details[open])>p{margin-bottom:8px}
+.case-note details[open]{margin-top:8px}.case-note details[open] .evidence-list{gap:8px}.case-note details[open] .evidence-list li{padding-top:7px;font-size:18px}
+.phase-investigate .contact-body:has(.replay[open]){display:grid;grid-template-columns:1fr 1.2fr;gap:10px}
+.phase-investigate .contact-body:has(.replay[open])>.replay{grid-column:2;grid-row:1 / span 5;margin:0;border-left:1px solid #ccbcd6;padding-left:12px}
+.phase-investigate .contact-body:has(.replay[open])>.message-date{display:none}
+.phase-investigate .contact-body:has(.replay[open])>p,.phase-investigate .contact-body:has(.replay[open])>.request,.phase-investigate .contact-body:has(.replay[open])>button,.phase-investigate .contact-body:has(.replay[open])>small{grid-column:1;margin:0}
+.phase-investigate .contact-body:has(.replay[open]) .transcript{padding:8px}.phase-investigate .replay[open] .transcript p{font-size:18px;line-height:1.3}
+.phase-education .lesson-paper:has(.evidence-review[open]){display:grid;grid-template-columns:1.4fr 1fr;gap:0 22px}
+.phase-education .lesson-paper:has(.evidence-review[open])>*{grid-column:1}
+.phase-education .lesson-paper>.evidence-review[open]{grid-column:2;grid-row:1 / span 6;border-left:1px solid #ccbcd6;padding-left:18px;margin:0;font-size:18px}

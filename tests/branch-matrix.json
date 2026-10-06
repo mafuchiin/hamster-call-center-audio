@@ -1,0 +1,1547 @@
+[
+  {
+    "case": 1,
+    "tools": [],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "independent"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "stay",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 1,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "independent"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "register",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 2,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [],
+    "action": "continue",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer"
+    ],
+    "action": "continue",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "independent"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "independent"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "share",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "cancel",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 3,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "continue",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "independent"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "update",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "reply",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 4,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "official",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 5,
+    "tools": [],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "independent"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "independent"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "independent"
+    ],
+    "action": "contact",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "computer"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "notebook"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "app",
+      "independent"
+    ],
+    "action": "contact",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "notebook"
+    ],
+    "action": "contact",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "computer",
+      "independent"
+    ],
+    "action": "contact",
+    "status": "RESOLVED",
+    "points": 100
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "transfer",
+    "status": "RISK",
+    "points": 0
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "ask",
+    "status": "PARTIAL",
+    "points": 40
+  },
+  {
+    "case": 5,
+    "tools": [
+      "notebook",
+      "independent"
+    ],
+    "action": "contact",
+    "status": "RESOLVED",
+    "points": 100
+  }
+]
